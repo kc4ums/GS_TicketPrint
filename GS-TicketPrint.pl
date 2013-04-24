@@ -480,9 +480,9 @@ open(WWW_PAGE, ">/var/www/products/xml/" . $xml .".xml");
 print WWW_PAGE (<<EOF);
 <?xml version="1.0"?>
     <?xml-stylesheet href="product.xsl" type="text/xsl"?>
-    <langboard>
-    <mill>105</mill>
-    <company>Langboard Inc.</company>
+    <langbo>
+    <mill>????</mill>
+    <company>?????? Inc.</company>
     <crc>$crc</crc>
     <product>
       <grade>$grade</grade>
@@ -501,7 +501,7 @@ print WWW_PAGE (<<EOF);
       <shift_sanded>$shift_sanded</shift_sanded>
       <shift_sawed>$shift_sawed</shift_sawed>
     </production>
-    </langboard>
+    </langbo>
 EOF
 ;
 
