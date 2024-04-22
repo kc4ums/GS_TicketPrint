@@ -1,0 +1,210 @@
+
+ %!
+  
+  gsave clippath pathbbox grestore
+  4 dict begin
+  /ury exch def /urx exch def /lly exch def /llx exch def
+  90 rotate  llx neg               llx urx sub lly sub  translate  % llx,lly
+  % end of rotating to landscape
+
+0 0 0 setrgbcolor
+
+
+  %main ticket *** large grade print 
+  /Helvetica-Bold findfont 52 scalefont  setfont
+ 
+  55 350  moveto
+  (IND-P2) show
+  
+  %maint ticket **** large thick,width, piece count & length
+  /Helvetica-Bold findfont 52 scalefont setfont
+  
+  55 295 moveto
+  (1 1/8) show
+  320 295 moveto
+  (21) show
+  55 240 moveto
+  (61 1/4) show
+  320 240 moveto
+  (58) show
+ 
+ 
+ % main ticket **** small shift and date info 
+  /Helvetica findfont 15 scalefont setfont
+  
+   140 214 moveto
+  (A) show
+  157 214 moveto
+  (2018-07-22) show
+ 
+  140 196 moveto
+  (C) show
+  157 196 moveto
+  (2018-07-23) show
+  
+  385 214 moveto
+  (B) show
+  405 214 moveto
+  (2018-07-24) show
+
+  385 196 moveto
+  () show
+ 
+  % tear off ticket **** small shift and date info 
+  /Helvetica findfont 11 scalefont setfont
+
+  40 40 moveto
+  (PRO:) show
+  80 40 moveto
+  (A) show
+  90 40 moveto
+  (2018-07-22) show
+  40 30 moveto
+  (SND:) show  
+  80 30 moveto
+  (C) show
+  90 30 moveto
+  (2018-07-23) show
+  40 20 moveto
+  (SAW:) show
+  80 20 moveto
+  (B) show
+  90 20 moveto
+  (2018-07-24) show
+  425 10 moveto
+  (597350098) show
+
+
+  175 40 moveto
+  (THK:) show
+  215 40 moveto
+  (1 1/8) show
+  
+  175 30 moveto
+  (WID:) show
+  215 30 moveto
+  (61 1/4) show
+  175 20 moveto
+  (LEN:) show  
+  215 20 moveto
+  (58) show
+
+
+  260 40 moveto
+  (GRD:) show
+  300 40 moveto
+  (IND-P2) show
+  260 30 moveto
+  (PCS:) show
+  300 30 moveto
+  (21) show
+  260 20 moveto
+  (UNT:) show
+  300 20 moveto
+  () show
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%  right hand side %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  %main ticket *** large grade print 
+  /Helvetica-Bold findfont 52 scalefont  setfont
+ 
+  560 350  moveto
+  (IND-P2) show
+  
+  %maint ticket **** large thick,width, piece count & length
+  /Helvetica-Bold findfont 52 scalefont setfont
+  
+  560 295 moveto
+  (1 1/8) show
+  825 295 moveto
+  (21) show
+  560 240 moveto
+  (61 1/4) show
+  825 240  moveto
+  (58) show
+ 
+ 
+ % main ticket **** small shift and date info 
+  /Helvetica findfont 15 scalefont setfont
+  
+   648 214 moveto
+  (A) show
+  663 214 moveto
+  (2018-07-22) show
+ 
+  648 196 moveto
+  (C) show
+  663 196 moveto
+  (2018-07-23) show
+  
+  892 214 moveto
+  (B) show
+  912 214 moveto
+  (2018-07-24) show
+
+  892 196 moveto
+  () show
+ 
+  % tear off ticket **** small shift and date info 
+  /Helvetica findfont 11 scalefont setfont
+
+  540 40 moveto
+  (PRO:) show
+  580 40 moveto
+  (A) show
+  590 40 moveto
+  (2018-07-22) show
+  540 30 moveto
+  (SND:) show  
+  580 30 moveto
+  (C) show
+  590 30 moveto
+  (2018-07-23) show
+  540 20 moveto
+  (SAW:) show
+  580 20 moveto
+  (B) show
+  590 20 moveto
+  (2018-07-24) show
+
+
+  675 40 moveto
+  (THK:) show
+  715 40 moveto
+  (1 1/8) show
+  
+  675 30 moveto
+  (WID:) show
+  715 30 moveto
+  (61 1/4) show
+  675 20 moveto
+  (LEN:) show  
+  715 20 moveto
+  (58) show
+
+
+  760 40 moveto
+  (GRD:) show
+  800 40 moveto
+  (IND-P2) show
+  760 30 moveto
+  (PCS:) show
+  800 30 moveto
+  (21) show
+  760 20 moveto
+  (UNT:) show
+  800 20 moveto
+  () show
+ 
+  925 10 moveto
+  (597350098) show
+
+
+
+%%%%%% the system calls below append the qrcode image 
+%%%%%% plus the showpage
+
+
+showpage
